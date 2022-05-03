@@ -1,16 +1,16 @@
-package com.checho.mvvm.model
+package com.checho.mvvm.data.model
 
 class QuoteProvider {
     companion object {
 
-        fun random():QuoteModel{
+        var quotes: List<QuoteModel> = emptyList()
+
+        /*
+
+        fun random(): QuoteModel {
             val position = (0..10).random()
             return quote[position]
         }
-
-
-
-
 
         val quote = listOf<QuoteModel>(
             QuoteModel(
@@ -47,8 +47,10 @@ class QuoteProvider {
                 quote = "Software and cathedrals are much the same — first we build them, then we pray.",
                 author = "Anonymous"
             ),
-            QuoteModel(quote = "¿A que esperas?, suscríbete.", author = "AristiDevs")
+            QuoteModel(quote = "¿QUIEROOOO GUELERRRR.", author = "Bazuko")
 
         )
+
+         */
     }
 }
