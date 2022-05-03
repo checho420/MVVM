@@ -1,4 +1,3 @@
 package com.checho.mvvm.model
 
-class QuoteModel {
-}
+data class QuoteModel(val quote: String, val author: String)
